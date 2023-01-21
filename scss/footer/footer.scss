@@ -1,0 +1,39 @@
+.footer {
+    background-color: $color-primary;
+    flex: 0 0 auto;
+    padding: 50px 0;
+    color: $color-white;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__sit {
+        font-weight: $medium;
+        font-size: 21px;
+    }
+    &__copy {
+        font-size: 13px;    
+}
+
+    &__icon {
+        display: flex;
+        column-gap: 8px;
+
+        a {
+            width: 48px;
+
+            img {
+                size: 100%;
+            }
+        }
+    }
+}
