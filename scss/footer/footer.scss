@@ -37,3 +37,15 @@
         }
     }
 }
+
+.footer {
+    @media (max-width: $mobile) {
+        .wrapper {
+            flex-direction: column-reverse;
+        }
+
+        &__info {
+            text-align: center;
+        }
+    }
+}
